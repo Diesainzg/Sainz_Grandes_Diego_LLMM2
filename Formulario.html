@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+<body class="fondo">
+    <div id="formulario">
+        <form  action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+            <fieldset>
+                <legend>Breaking Bad - Que comience el juego!</legend>
+
+                <label class="formu" for="Nombre">Nombre: </label>
+                <input class="formucampos" type="text" id="Nombre" name="Nombre" required>
+
+                <label class="formu" for="Apellidos">Apellidos: </label>
+                <input class="formucampos" type="text" id="Apellidos" name="Apellidos" required>
+
+                <label class="formu" for="Direccion">Dirección Postal: </label>
+                <input class="formucampos" type="text" id="Calle" name="Calle" placeholder="Calle">
+                <input class="formucampos" type="text" id="Numero" name="Numero" placeholder="Número">
+                <input class="formucampos" type="text" id="Piso" name="Piso" placeholder="Piso">
+                <input class="formucampos" type="text" id="CodigoP" name="CodigoP" placeholder="Código Postal">
+                <input class="formucampos" type="text" id="Ciudad" name="Ciudad" placeholder="Ciudad">
+
+                <label class="formu" for="DNI">DNI: </label>
+                <input class="formucampos" type="text" id="DNI" name="DNI">
+
+                    
+                <label class="formu" for="CorreoElectronico">Correo Electrónico: </label>
+                <input class="formucampos" type="text" id="CorreoElectronico" name="CorreoElectronico" required>
+
+                <label class="formu" for="Sexo">Sexo: </label>
+                <input class="formucampos" type="radio" name="Sexo" value="Hombre">Hombre
+                <input class="formucampos" type="radio" name="Sexo" value="Mujer">Mujer
+
+                <label class="formu" for="FechaNacimiento">Fecha de Nacimiento:</label>
+                <input class="formucampos" type="date" id="FechaNacimiento" name="FechaNacimiento">
+
+                <label class="formu" for="Personaje">Selecciona un personaje:</label>
+                <select class="formucampos" id="Personaje" name="Personaje">
+                    <option value="JessiePinkman">Jessie Pinkman</option>
+                    <option value="WalterWhite">Walter White</option>
+                    <option value="SaulGoodman">Saul Goodman</option>
+                    <option value="GustavoFring">Gustavo Fring</option>
+                    <option value="PollosHermanos">Pollos Hermanos</option>
+                    <option value="Otros">Otros personajes</option>
+                </select>
+                <label class="formu" for="Comentarios">Caja de Comentarios</label>
+                <textarea class="formucampos" name="Comentarios" id="Comentarios" rows="4" cols="50"></textarea>
+
+                <input class="button" type="submit" value="Enviar">
+                <button class="button" type="reset">Borrar</button>
+                <label for="archivo">Adjuntar Archivos:</label>
+                <input class="button" type="file" id="archivo" name="archivo">
+            </fieldset>
+        </form>
+</div>
+</body>
+</html>

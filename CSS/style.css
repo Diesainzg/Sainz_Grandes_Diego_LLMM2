@@ -1,0 +1,138 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fonts1 {
+    font-size: 40px;
+}
+
+.fonts2 {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family:'BreakingBad';
+    src: url('../BreakingBad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logo {
+    background-image: url("../img/logo.PNG");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    align-items: center;
+    display: block;
+    margin: auto
+}
+
+#poster {
+    background-position: center;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    align-items: center;
+    display: block;
+    margin: 2em auto
+}
+
+.h1 {
+    font-family: 'BreakingBad';
+    color: white;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+fieldset {
+    width: 40%;
+    height: auto;
+    background-color: #0c3e11;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow-y: auto;
+    margin-bottom: auto;
+    display: block;
+    font-family: Helvetica;
+    color: white;
+    font-size: 14px;
+}
+
+.formu {
+    padding: 10px;
+    margin-bottom: auto;
+    display: block;
+}
+
+.formucampos {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorfondo {
+    background-color: #0c3e11;
+}
+
+#cabecera{
+    background-image: url("../img/cabecera.png");
+    display: block;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 200px;
+}
+
+#table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #B8DB18;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+#table td {
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    font-weight: bold;
+    border: 8px solid #2b2c24;
+    padding: 1px;
+
+}
+
+#table td p {
+    margin: 0;
+    padding: 0;
+}
+
+#table td img {
+    display: block;
+    margin: auto;
+    height: auto;
+    object-fit: cover;
+}
